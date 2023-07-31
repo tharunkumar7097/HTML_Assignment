@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assign.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li><a >Menu</a></li>
+                <li><a >Home</a></li>
+                <li><a >Task</a></li>
+                <li><a >Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h2 id="title">content</h2>
+            <div class="data">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem veritatis at minima vel adipisci nemo doloribus eaque voluptates expedita commodi, alias rem sint, velit sunt corrupti nam voluptas repudiandae, vitae molestiae. Voluptate exercitationem eum nobis architecto necessitatibus unde maiores, dolores numquam cupiditate laudantium, consequuntur deleniti rerum fugit velit tempora veniam maxime laboriosam labore asperiores. Corrupti laborum facilis tenetur porro animi, assumenda eos? Quo deserunt, sed numquam obcaecati eum temporibus aperiam cumque cupiditate itaque dolorem iusto id necessitatibus sunt minima accusamus praesentium qui dignissimos dolor. Omnis ad atque unde fuga harum eveniet, deserunt voluptas, sed laborum voluptatibus quos quis quae?</p>
+            </div>
+            <div class="text">
+                <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. A eum unde in quam, nobis ex officiis similique exercitationem aut debitis illo incidunt molestias omnis dolore ad veniam assumenda fugiat, suscipit sed aliquam excepturi. Esse debitis quas mollitia aliquid et molestiae omnis dolore, praesentium reiciendis! Nam delectus ipsa error tempore facere.</P>
+            </div>
+        </div>
+        <div class="footer">
+            <P > This is the conclusion</P>
+            <p1> End of the document</p1>
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
+
+
+
+Assign.css
+---------------------------------------------------
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column; 
+}
+.header{
+    background-color: red;
+    height: 80px;
+}
+
+ul{
+    width: 100%;
+    height: 80px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+li{
+    list-style-type: none;
+
+}
+li a{
+
+    color:blue;
+    font-size: 20px;
+}
+ .main-content{
+    background-color:lightgreen;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+#title{
+    display: flex;
+    justify-content: center;
+}
+.data{
+    padding: 50px;
+}
+.text{
+    padding: 50px;
+}
+
+.footer{
+    background-color: lightblue;
+     height: 60px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+
