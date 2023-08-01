@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assign.css">
+</head>
+<body>
+    <div class="text1">
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus at modi non explicabo, aliquam ratione perspiciatis dicta fuga corrupti? Nulla aspernatur hic aut, natus earum recusandae unde nemo dolor, ipsum vero distinctio pariatur, laboriosam porro tenetur in architecto maxime alias voluptatum. Fuga in porro, nostrum impedit vitae ab inventore quaerat.
+        <br><br><br><br>
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum, commodi praesentium corrupti dolore libero quia rerum quis quas non itaque voluptas ratione possimus cupiditate laudantium eaque, beatae deleniti molestiae.
+            <br><br><br><br>
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero incidunt ipsum tempore? Doloremque quisquam aliquam tempore, nisi ut velit deserunt ex nam veritatis, necessitatibus dignissimos, explicabo sit! Accusantium, eveniet perferendis nisi praesentium consequuntur deleniti assumenda, eaque fugit nam fugiat ipsam.
+            <br><br><br><br>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>navigation</li>
+            <li>bar</li>
+            <li>contact Us</li>
+        </ul>
+    </nav>
+    <div class="text2">
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, cupiditate. Labore laborum vitae minima vel dicta hic ab odio molestias?</div>
+        <br><br><br><br>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi distinctio voluptatibus minima suscipit accusantium architecto nemo laboriosam iste eius blanditiis, exercitationem vitae sit enim in odio, hic consectetur ad fugit voluptatum officia mollitia praesentium esse. Aliquam dicta, eius dolorem, quod minima, doloribus quaerat vitae iste vel quasi quae pariatur ipsa!</div>
+        <br><br><br><br>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis fugiat quia ducimus laborum cum doloribus quas recusandae nobis ab voluptatem nostrum cumque quam delectus nesciunt aperiam molestiae repudiandae magnam doloremque, quod reiciendis. Facilis, molestiae et. Id libero perspiciatis ad quisquam laudantium rem ut eius quo, sunt quas facilis veritatis asperiores!
+        </div>
+        <br><br><br><br>
+   </div> 
+    
+</body>
+</html>
+
+
+Assign.css
+---------------------------------------
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.text1{
+    margin: 80px;
+}
+nav{
+    height: 20vh;
+    background-color: lightcoral;
+    top: 0px;
+    position: sticky;
+    font-size:25px; 
+    
+}
+ul{
+    height: 120px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style-type: none;  
+}
+
+.text2{
+    margin: 30%;
+}
