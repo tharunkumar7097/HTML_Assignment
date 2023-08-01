@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assign.css">
+
+</head>
+<body>
+    <div class="container">
+        <img src="https://gumlet.assettype.com/afaqs%2F2021-04%2F9eb04087-789c-4bdc-950e-d140342ac007%2FHVRW__002_.png?format=webp&dpr=1.0&q=70&w=700"
+        alt=" Hero vired image" height=100>
+        <p1 class="para1">Lo cudiandae est eveniet totam magni minima harum labore sequi perferendis modi? Molestias dolor necessitatibus, earum voluptatum voluptatem consequuntur ipsam blanditiis dolores nam architecto quis eaque laborum, rerum nisi, eos corporis dolorem veritatis eius hic debitis veniam aperiam animi?
+
+        </p1>
+        <p2 class="para2">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto impedit sint optio magni, fugiat est recusandae perferendis cupiditate reiciendis labore soluta quasi qui consequuntur placeat nam similique. Tempora, saepe doloribus.
+        </p2>
+
+        
+    </div>
+    
+</body>
+</html>
+
+
+
+Assign.css
+----------------------------------------
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    height: 100vh;
+    width: 90%;
+    border: 2px solid black;
+    margin: auto;
+    position: relative;
+    background-color: lightblue;
+}
+img{
+    position: absolute;
+    right: 10px;
+    margin: 10px; 
+    border: 2px lightblue;
+}
+.para1{
+    width:20%;
+    position: absolute; 
+    bottom:0;
+    margin:15px;
+    border:2px solid red;
+}
+.para2{
+    position: absolute; 
+    width: 20%;
+     top: 50%;
+    left: 50%; 
+    transform:translate(-50%,-50%);
+    border: 2px solid blue;
+
+
+}
