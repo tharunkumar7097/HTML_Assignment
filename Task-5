@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image gallery with hover effect and transition</title>
+   <link rel="stylesheet" href="Assign.css".
+</head>
+<body>
+    <div class="image-gallery">
+    <img src="https://i.pinimg.com/originals/54/74/5c/54745ce8f32c57cedb7d59df92184fe0.jpg" alt="Thumbnail image-1">
+    <img src="https://www.nsbpictures.com/wp-content/uploads/2021/01/background-for-thumbnail-youtube-1.png" alt="thumbnail image-2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7zGqHuSRdkztKirN1RTHWkEPIg_d5gc__Kg&usqp=CAU" alt="Thumbnail image-3">
+    </div>
+    
+</body>
+</html>
+
+Assign.css
+--------------------------
+
+*{
+    padding:0;
+    margin: 0;
+}
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin: 60px;
+    border-radius: 20px;
+    transition: all 5s ease; 
+}
+
+ img:hover{
+    transform: scale(1.2);
+
+} 
