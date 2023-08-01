@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assign.css".
+    <title> Flex box items</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+        </div>
+        <div class="main-content">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+    
+</body>
+</html>
+
+
+Assign.css
+-------------------------------------
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 20vh;
+    background-color: aqua;
+}
+.main-content{
+    height: 60vh;
+    background-color:lightcoral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1{
+    height: 50%;
+    width: 15%;
+    background-color: red;
+}
+.box2{
+    height: 50%;
+    width: 15%;
+    background-color:blue;
+}
+.box3{
+    height: 50%;
+    width: 15%;
+    background-color: green;
+}
+.footer{
+    height: 20vh;
+    background-color: aqua;
+}
